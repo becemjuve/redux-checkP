@@ -1,0 +1,26 @@
+#root , html{
+    background-color:#333;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 4px 10px;
+}
+.task p{
+    margin: 0;
+}
+.crossed-out{
+    text-decoration: line-through;
+    color: red;
+}
+.cur-point{
+    cursor: pointer;
+}
